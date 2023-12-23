@@ -1,0 +1,26 @@
+.vscode/
+.idea/
+venv/
+__pycache__/
+
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+*.cmake
+*.o
+*.out
+
+bin/
+obj/
+build/
+
+cg
+jacobi
+jacobi_nvshmem
+*/obj/*
+!obj/.gitkeep
+*/obj_nvshmem/
+
+# Benchmarking artifacts
+*.log
